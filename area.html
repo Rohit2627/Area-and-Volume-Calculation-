@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area</title>
+    <link rel="stylesheet" href="area.css">
+   
+</head>
+<body>
+    <header>
+        <!-- <img src="shapes2.jpg"  style="width:130px;height: 70px;"> -->
+      <a href="index.html"> <button class="rohit"><b>Home</b></button></a>
+        <nav class="navi">
+            
+            <a href="volume.html" target="_blank"><b>Volume</b></a>
+            <a href="about.html" target="_blank"><b>About Us</b></a>
+            <a href="contact.html" target="_blank"><b>Contact Us</b></a>
+           
+        </nav>
+      </header>
+
+        <div class="info">
+            <pre><i><b style="font-size: 1.5em;">AREA CALCULATION</b></i>
+               <i class="space"> In mathematics,The space enclosed by the boundary of a plane figure is called its area.
+                The area of a figure is the number of unit squares that cover the surface of a closed figure.</i>
+                <i><b style="color: rgb(12, 238, 159);">"Area is measured in square units like cm² and m²."</b></i>
+               <i><b style="color: rgb(12, 230, 136);">"Area of a shape is a two dimensional quantity."</b></i>
+            </pre>
+        </div>
+
+        <pre class="pro" style="color: rgb(233, 5, 5);">Select the Shape and then Click on Submit Button</pre>
+        
+        <form id="myForm">
+         
+          <select id="myDropdown" name="myDropdown">
+            <option disabled selected>--Select the Shape--</option>
+            <option value="circle.html"><b>Circle</b></option>
+            <option value="square.html"><b>Square</b></option>
+            <option value="rectangle.html"><b>Rectangle</b></option>
+            <option value="triangle.html"><b>Triangle</b></option>
+            <option value="parallelogram.html"><b>Parallelogram</b></option>
+            <option value="ellipse.html"><b>Ellipse</b></option>
+            <option value="trapezoid.html"><b>Trapezoid</b></option>
+
+          </select>
+          <button type="submit" class="id">Submit</button>
+         
+        </form>
+
+        <script>
+          document.getElementById("myForm").addEventListener("submit", function(event) {
+            // Prevent the default form submission behavior
+            event.preventDefault();
+            
+            // Get the selected option from the dropdown
+            var selectedOption = document.getElementById("myDropdown").value;
+            
+            // Redirect to the target URL
+            window.location.href = selectedOption;
+          });
+        </script>
+        
+
+</body>
+</html>

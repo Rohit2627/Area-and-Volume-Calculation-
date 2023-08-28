@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volume</title>
+    <link rel="stylesheet" href="volume.css">
+    
+</head>
+<body>
+    <header>
+        <!-- <img src="shapes2.jpg"  style="width:130px;height: 70px;"> -->
+      <a href="index.html"> <button class="rohit"><b>Home</b></button></a>
+        <nav class="navi">
+            
+            <a href="area.html" target="_blank"><b>Area</b></a>
+            <a href="about.html" target="_blank"><b>About Us</b></a>
+            <a href="contact.html" target="_blank"><b>Contact Us</b></a>
+           
+        </nav>
+      </header>
+
+      <div class="info">
+        <pre><i><b style="font-size: 1.5em;">VOLUME CALCULATION</b></i>
+           <i class="space"> In mathematics,The space occupied by an object or a closed surface is called its volume.
+            Sometimes, volume is also termed capacity of the object..</i>
+            <i><b style="color: rgb(31, 238, 12);">"Volume is measured in cubic units like m3, cm3"</b></i>
+           <i><b style="color: rgb(12, 230, 136);">"Volume of a shape is a three dimensional quantity."</b></i>
+        </pre>
+    </div>
+
+    <pre class="pro" style="color: rgb(233, 5, 5);">Select the Shape and then Click on Submit Button</pre>
+        
+    <form id="myForm">
+         
+          <select id="myDropdown" name="myDropdown">
+            <option disabled selected>--Select the Shape--</option>
+            <option value="cube.html"><b>Cube</b></option>
+            <option value="cuboid.html"><b>Cuboid/Solid Rectangle </b></option>
+            <option value="cylinder.html"><b>Cylinder</b></option>
+            <option value="sphere.html"><b>Sphere</b></option>
+            <option value="prism.html"><b>Prism</b></option>
+            <option value="pyramid.html"><b>Pyramid</b></option>
+            <option value="tetra.html"><b>Tetrahedron</b></option>
+
+          </select>
+          <button type="submit" class="id">Submit</button>
+         
+        </form>
+    <script>
+      document.getElementById("myForm").addEventListener("submit", function(event) {
+        // Prevent the default form submission behavior
+        event.preventDefault();
+        
+        // Get the selected option from the dropdown
+        var selectedOption = document.getElementById("myDropdown").value;
+        
+        // Redirect to the target URL
+        window.location.href = selectedOption;
+      });
+    </script>
+    
+
+    
+    
+</body>
+</html>

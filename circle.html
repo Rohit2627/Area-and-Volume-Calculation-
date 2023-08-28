@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Area Calculator</title>
+	<script src="circle.js"></script>
+    <link rel="stylesheet" href="circle.css">
+
+    
+</head>
+<body>
+    <div class="c1">
+        <div class="one">
+          <pre>  <h1 class="c2">Area Calculator</h1></pre>
+        
+            <p class="c3">Enter the <b>Radius</b> of the <b>Circle:</b></p>
+            <label for="radius" class="c4">Radius:</label>
+            <input type="number" id="radius" name="radius" placeholder="enter value here..">
+            <select id="radiusUnit" name="radiusUnit">
+                <option disabled selected>--select the unit--</option>
+                <option value="meters">meters</option>
+                <option value="centimeters">centimeters</option>
+                <option value="kilometers">kilometers</option>
+            </select>
+            <br>
+            
+            <br>
+            <button onclick="calculateArea()" class="c6">Calculate Area</button>
+            <p class="c7">Area of the given Demension is as Follows:</p>
+            
+            <p id="squareMeters" class="c8"></p>
+            <p id="squareCentimeters" class="c9"></p>
+            <p id="squareKilometers" class="c10"></p>
+        </div>
+
+    
+
+        <div class="two">
+        <img src="circle.jpg" alt="circle" class="img" style="width: 250px;">
+		<pre class="ab"> 
+	 <b style="color: red;">CIRCLE</b>
+
+	<b>The area of Circle:-</b>
+        Area = Pi * Radius * Radius 
+        where, (Pi=3.14159)
+		</pre>
+		</div>
+    </div>
+	
+</body>
+</html>
+
+
+

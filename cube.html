@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Volume Calculator</title>
+	<script src="cube.js"></script>
+    <link rel="stylesheet" href="cube.css">
+
+    
+</head>
+<body>
+    <div class="c1">
+		<div class="one">
+	<h1 class="c2">Volume Calculator</h1>
+    <div class="i">
+	<p class="c3">Enter the <b>Side </b>of a <b>Cube:</b></p>
+	<label for="side" class="c4">Side:</label>
+	<input type="number" id="side" name="side" placeholder="enter value here..">
+	<select id="sideUnit" name="sideUnit">
+		<option disabled selected>--select the unit--</option>
+		<option value="meters">meters</option>
+		<option value="centimeters">centimeters</option>
+		<option value="kilometers">kilometers</option>
+	</select>
+	<br>
+	
+	<button onclick="calculateVolume()" class="c6">Calculate Volume</button>
+	<p class="c7">volume of the given Demensions is as Follows:</p>
+    
+	<p id="cubicMeters" class="c8"></p>
+	<p id="cubicCentimeters" class="c9"></p>
+	<p id="cubicKilometers" class="c10"></p>
+    </div>
+
+    </div>
+
+    <div class="two">
+        <img src="cube.jpg" alt="cube" class="img" style="width: 300px;">
+		<pre class="ab"> 
+			 <b style="color: red;">CUBE</b>
+
+	<b>The volume of Cube:-</b>
+	Volume= side * side * side
+	*In above diagram 'a'=side
+</pre>
+		
+    </div>
+	</div>
+</body>
+</html>
+
+
+

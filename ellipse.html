@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Area Calculator</title>
+	<script src="ellipse.js"></script>
+    <link rel="stylesheet" href="ellipse.css">
+
+    
+</head>
+<body>
+    <div class="c1">
+		<div class="one">
+	<h1 class="c2">Area Calculator</h1>
+    <div class="i">
+	<p class="c3">Enter the <b>Major</b> and <b>Minor</b> axis of a <b>Ellipse:</b></p>
+	<pre class="21" style="color: red;">                    <b> You have to select similar Units!!!</b></pre>
+	<label for="major" class="c4">Major Axis:</label>
+	<input type="number" id="major" name="major" placeholder="enter value here..">
+	<select id="majorUnit" name="majorUnit">
+		<option disabled selected>--select the unit--</option>
+		<option value="meters">meters</option>
+		<option value="centimeters">centimeters</option>
+		<option value="kilometers">kilometers</option>
+	</select>
+	<br>
+	<label for="minor" class="c5">Minor Axis:</label>
+	<input type="number" id="minor" name="minor" placeholder="enter value here..">
+	<select id="minorUnit" name="minorUnit">
+		<option disabled selected>--select the unit--</option>
+		<option value="meters">meters</option>
+		<option value="centimeters">centimeters</option>
+		<option value="kilometers">kilometers</option>
+	</select>
+	<br>
+	<button onclick="calculateArea()" class="c6">Calculate Area</button>
+	<p class="c7">Area of the given Demensions is as Follows:</p>
+    
+	<p id="squareMeters" class="c8"></p>
+	<p id="squareCentimeters" class="c9"></p>
+	<p id="squareKilometers" class="c10"></p>
+    </div>
+		</div>
+    
+
+    <div class="two">
+        <img src="ellipse.jpg" alt="ellipse" class="img" style="width: 300px;">
+		<pre class="ab"> 
+			<b style="color: red;">ELLIPSE</b>
+
+	<b>The area of Ellipse:-</b>
+	Area =  Pi * Major Axis * Minor Axis
+	where Pi=3.14159
+           <!-- in above diagram 'b'=Base and 'h'=Height -->
+		</pre>
+		
+    </div>
+	</div>
+</body>
+</html>
+
+
+

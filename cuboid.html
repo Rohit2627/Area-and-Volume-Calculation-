@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Area Calculator</title>
+	<script src="cuboid.js"></script>
+    <link rel="stylesheet" href="cuboid.css">
+
+    
+</head>
+<body>
+    <div class="c1">
+		<div class="one">
+	<h1 class="c2">Volume Calculator</h1>
+    <div class="i">
+	<p class="c3">Enter the <b>Length</b>,<b>Width</b> and <b>Height </b>of a <b>Cuboid:</b></p>
+	<pre class="21" style="color: red;">                    <b> You have to select similar Units!!!</b></pre>
+	<label for="length" class="c4">Length:</label>
+	<input type="number" id="length" name="length" placeholder="enter value here..">
+	<select id="lengthUnit" name="lengthUnit">
+		<option disabled selected>--select the unit--</option>
+		<option value="meters">meters</option>
+		<option value="centimeters">centimeters</option>
+		<option value="kilometers">kilometers</option>
+	</select>
+	<br>
+	<label for="width" class="c5">Width:</label>
+	<input type="number" id="width" name="width" placeholder="enter value here..">
+	<select id="widthUnit" name="widthUnit">
+		<option disabled selected>--select the unit--</option>
+		<option value="meters">meters</option>
+		<option value="centimeters">centimeters</option>
+		<option value="kilometers">kilometers</option>
+	</select>
+	<br>
+    <label for="height" class="c19">Height:</label>
+	<input type="number" id="height" name="height" placeholder="enter value here..">
+	<select id="heightUnit" name="heightUnit">
+		<option disabled selected>--select the unit--</option>
+		<option value="meters">meters</option>
+		<option value="centimeters">centimeters</option>
+		<option value="kilometers">kilometers</option>
+	</select>
+	<br>
+	<button onclick="calculateArea()" class="c6">Calculate Volume</button>
+	<p class="c7">Volume of the given Demensions is as Follows:</p>
+    
+	<p id="cubicMeters" class="c8"></p>
+	<p id="cubicCentimeters" class="c9"></p>
+	<p id="cubicKilometers" class="c10"></p>
+    </div>
+
+    </div>
+
+    <div class="two">
+        <img src="cuboid.jpg" alt="cuboid" class="img" style="width: 350px;">
+		<pre class="ab"> 
+				<b style="color: red;">CUBOID</b>
+
+	<b>The volume of Cuboid:-</b>
+	Volume = Length * Width * Height
+           <!-- in above diagram 'b'=Base and 'h'=Height -->
+		</pre>
+		
+    </div>
+	</div>
+	
+</body>
+</html>
+
+
+

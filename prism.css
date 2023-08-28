@@ -1,0 +1,187 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  
+}
+
+body{
+ 
+  justify-content: center; 
+   box-sizing: border-box;
+   box-sizing: content-box;
+  align-items: start;
+  min-height: 540px;
+
+  background-color: rgba(28, 194, 203, 0.5);
+  
+  background-size: cover;
+  background-position: center; 
+  
+  
+} 
+
+.c1{
+ 
+          
+    align-items: center;
+
+         
+}
+.one{
+  width: 50%;
+  
+          margin-right: 500px;
+}
+
+.c2{
+  
+  padding-left: 230px;
+  color: red;
+  font-style: italic bold;
+  font-weight: 500%;
+  margin-top: 20px;
+  /* margin-left: 150px; */
+ 
+}
+
+.c3{
+
+  padding: 2px 5px 10px 25px;
+  margin-left: 70px;
+  margin-top: 30px;
+ 
+ 
+}
+
+input[type="number"] {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding-left: 12px;
+  font-size: 16px;
+  height: 40px;
+  width: 150px;
+  display: inline-block;
+  
+}
+
+
+#length::-webkit-outer-spin-button,
+#length::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;}
+
+#base::-webkit-outer-spin-button,
+#base::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;}
+
+#height::-webkit-outer-spin-button,
+#height::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;}
+
+
+
+
+
+
+.c4{
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 5px;
+  margin-left: 25px;
+ 
+}
+.c5{
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 5px;
+  margin-left: 37px;
+ 
+}
+
+.c19{
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 5px;
+  margin-left: 27px;
+ 
+}
+
+
+#lengthUnit, #baseUnit, #heightUnit{
+
+  padding-left: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 2px 2px 2px 2px;
+  font-size: 16px;
+  height: 40px;
+  width: 150px;
+  margin: 2px 2px;
+}
+
+
+
+
+.c6 {
+  
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+ margin-left: 150px;
+ margin-top: 8px;
+}
+
+.c6:hover {
+  background-color: #3e8e41;
+}
+
+.c7{
+  margin-top: 20px;
+  color: rgb(234, 27, 96);
+  font-size: 1.1em;
+  margin-left: 30px;
+}
+
+.c8{
+
+  color: rgb(8, 32, 245);
+  margin-top: 15px;
+  margin-left: 70px;
+}
+
+.c9{
+
+  color: rgb(238, 77, 7);
+  margin-top: 15px;
+  margin-left: 70px;
+}
+
+.c10{
+
+  color: rgb(236, 11, 109);
+  margin-top: 15px;
+  margin-left: 70px;
+}
+
+
+
+.two
+{
+   
+  position: absolute;
+  top: 90px;
+  left: 700px;
+
+}
+
+
+
+

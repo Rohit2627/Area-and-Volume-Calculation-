@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Volume Calculator</title>
+	<script src="sphere.js"></script>
+    <link rel="stylesheet" href="sphere.css">
+
+    
+</head>
+<body>
+    <div class="c1">
+		<div class="one">
+	<h1 class="c2">Volume Calculator</h1>
+    <div class="i">
+	<p class="c3">Enter the <b>Radius</b> of a <b>Sphere:</b></p>
+	<label for="radius" class="c4">Radius:</label>
+	<input type="number" id="radius" name="radius" placeholder="enter value here..">
+	<select id="radiusUnit" name="radiusUnit">
+		<option disabled selected>--select the unit--</option>
+		<option value="meters">meters</option>
+		<option value="centimeters">centimeters</option>
+		<option value="kilometers">kilometers</option>
+	</select>
+	<br>
+	<button onclick="calculateArea()" class="c6">Calculate Volume</button>
+	<p class="c7">Volume of the given Demensions is as Follows:</p>
+    
+	<p id="cubicMeters" class="c8"></p>
+	<p id="cubicCentimeters" class="c9"></p>
+	<p id="cubicKilometers" class="c10"></p>
+    </div>
+
+    </div>
+
+    <div class="two">
+        <img src="sphere.jpg" alt="sphere" class="img" style="width: 320px;">
+		<pre class="ab"> 
+			<b style="color: red;">SPHERE</b>
+
+<b>The volume of Sphere:-</b>
+Volume = 4/3 * Pi* Radius * Radius * Radius
+where, Pi=3.14159
+           <!-- in above diagram 'b'=Base and 'h'=Height -->
+		</pre>
+		
+    </div>
+	</div>
+</body>
+</html>
+
+
+

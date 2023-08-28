@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Area Calculator</title>
+	<script src="tetra.js"></script>
+    <link rel="stylesheet" href="tetra.css">
+
+    
+</head>
+<body>
+    <div class="c1">
+		<div class="one">
+	<h1 class="c2">Volume Calculator</h1>
+    <div class="i">
+	<p class="c3">Enter the <b> side</b> of the <b>Tetrahedron:</b></p>
+	<label for="side" class="c4">Side:</label>
+	<input type="number" id="side" name="side" placeholder="enter value here..">
+	<select id="sideUnit" name="sideUnit">
+		<option disabled selected>--select the unit--</option>
+		<option value="meters">meters</option>
+		<option value="centimeters">centimeters</option>
+		<option value="kilometers">kilometers</option>
+	</select>
+	<br>
+	<button onclick="calculateArea()" class="c6">Calculate Volume</button>
+	<p class="c7">Volume of the given Demensions is as Follows:</p>
+    
+	<p id="cubicMeters" class="c8"></p>
+	<p id="cubicCentimeters" class="c9"></p>
+	<p id="cubicKilometers" class="c10"></p>
+    </div>
+
+    </div>
+
+    <div class="two">
+        <img src="tetra.jpg" alt="tetrahedron" class="img">
+		<pre class="ab"> 
+		<b style="color: red;">TETRAHEDRON</b>
+
+<b>The volume of Tetrahedron:-</b>
+Volume = (side*side*side)/(6*√2)
+           <!-- in above diagram 'b'=Base and 'h'=Height -->
+		</pre>
+		
+    </div>
+	</div>
+</body>
+</html>
+
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Area Calculator</title>
+	<script src="parallelogram.js"></script>
+    <link rel="stylesheet" href="parallelogram.css">
+
+    
+</head>
+<body>
+    <div class="c1">
+		<div class="one">
+	<h1 class="c2">Area Calculator</h1>
+    <div class="i">
+	<p class="c3">Enter the <b>Base</b> and <b>Height</b> of a <b>Parallelogram:</b></p>
+	<pre class="21" style="color: red;">                    <b> You have to select similar Units!!!</b></pre>
+	<label for="base" class="c4">Base:</label>
+	<input type="number" id="base" name="base" placeholder="enter value here..">
+	<select id="baseUnit" name="baseUnit">
+		<option disabled selected>--select the unit--</option>
+		<option value="meters">meters</option>
+		<option value="centimeters">centimeters</option>
+		<option value="kilometers">kilometers</option>
+	</select>
+	<br>
+	<label for="height" class="c5">Height:</label>
+	<input type="number" id="height" name="height" placeholder="enter value here..">
+	<select id="heightUnit" name="heightUnit">
+		<option disabled selected>--select the unit--</option>
+		<option value="meters">meters</option>
+		<option value="centimeters">centimeters</option>
+		<option value="kilometers">kilometers</option>
+	</select>
+	<br>
+	<button onclick="calculateArea()" class="c6">Calculate Area</button>
+	<p class="c7">Area of the given Demensions is as Follows:</p>
+    
+	<p id="squareMeters" class="c8"></p>
+	<p id="squareCentimeters" class="c9"></p>
+	<p id="squareKilometers" class="c10"></p>
+    </div>
+
+    </div>
+
+    <div class="two">
+        <img src="para.jpg" alt="parallelogram" class="img" style="width: 280px;">
+		<pre class="ab"> 
+		 <b style="color: red;">PARALLELOGRAM</b>
+
+<b>The area of Parallelogram:-</b>
+Area = Base * Height
+in above diagram 'b'=Base and 'h'=Height
+		</pre>
+		
+    </div>
+	</div>
+	
+</body>
+</html>
+
+
+

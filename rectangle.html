@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Area Calculator</title>
+	<script src="rectangle.js"></script>
+    <link rel="stylesheet" href="rectangle.css">
+
+    
+</head>
+<body>
+    <div class="c1">
+		<div class="one">
+				<h1 class="c2">Area Calculator</h1>
+				<div class="i">
+				<p class="c3">Enter the <b>Length</b> and <b>Width</b> of a <b>Rectangle:</b></p>
+				<pre class="21" style="color: red;">                    <b> You have to select similar Units!!!</b></pre>
+				<label for="length" class="c4">Length:</label>
+				<input type="number" id="length" name="length" placeholder="enter value here..">
+				<select id="lengthUnit" name="lengthUnit">
+					<option disabled selected>--select the unit--</option>
+					<option value="meters">meters</option>
+					<option value="centimeters">centimeters</option>
+					<option value="kilometers">kilometers</option>
+				</select>
+				<br>
+				<label for="width" class="c5">Width:</label>
+				<input type="number" id="width" name="width" placeholder="enter value here..">
+				<select id="widthUnit" name="widthUnit">
+					<option disabled selected>--select the unit--</option>
+					<option value="meters">meters</option>
+					<option value="centimeters">centimeters</option>
+					<option value="kilometers">kilometers</option>
+				</select>
+				<br>
+				<button onclick="calculateArea()" class="c6">Calculate Area</button>
+				<p class="c7">Area of the given Demensions is as Follows:</p>
+				
+				<p id="squareMeters" class="c8"></p>
+				<p id="squareCentimeters" class="c9"></p>
+				<p id="squareKilometers" class="c10"></p>
+				
+    	</div>
+
+    
+
+		<div class="two">
+			<img src="rec.jpg" alt="rectangle" class="img" style="width: 300px;">
+			<pre class="ab"> 
+	<b style="color: red;">RECTANGLE</b>
+
+	<b>The area of Reactangle:-</b>
+	Area = Length * Width (Breadth)
+			</pre>
+			
+		</div>
+
+</div>
+	
+</body>
+</html>
+
+
+
